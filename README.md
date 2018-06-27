@@ -5,12 +5,6 @@ webpack的一些注意点
 <pre>
 <code>
     externals: {
-        vue: {
-            root: 'Vue',
-            commonjs: 'vue',
-            commonjs2: 'vue',
-            amd: 'vue'
-         },
         jquery:{
           root: '$',
           commonjs: 'jquery',
